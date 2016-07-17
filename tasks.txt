@@ -1,0 +1,54 @@
+Python Project Ideas
+--------------------
+
+1. Rational class
+
+	- Create a class Rational that can represent rational numbers (of the form p/q). 
+	- Define the appropriate constructors and override __repr__ and __unicode__
+	- It should have the methods add/subtract/multiply/divide with parameters (self, other).
+	- Each method takes in another Rational object and returns a *new* Rational object representing the result.
+	- Every return value should be a simplified fraction. 
+	
+	Hint:
+	- look into classes
+	- look at Euclid's gcd algorithm
+
+2. Write a simple game using pygame
+
+	- write a Snake application
+	- use arrow keys to move left, up, down, right
+	- game logic should be backed by a 2D grid
+	- snake should move x cells every y seconds
+	- each square of the snake's body should move to the square before it
+	- color the head something different
+	- extra credit:
+		- game over screen
+		- select screen
+		- score
+		- different backgrounds
+
+	Hints:
+	- pygame framework
+	- read about event loops and processing
+	- learn about finite state machines
+	- get good at writing classes and writing modular code
+
+
+3. Write a simple chat application
+
+	- Single client/server
+	- Start the server, then start the client (these should be separate processes run from the shell)
+	- Client sends a single string to the server
+	- Server will echo the entire history after each client request
+
+	Hints:
+	- look into Python's sockets API
+	- look into Python's os and multiprocessing packages
+	- learn about IP addresses (use the loopback address)
+	- use Google
+
+
+Resources:
+- Python 2.7/3.5 docs
+- Google
+- StackOverflow
